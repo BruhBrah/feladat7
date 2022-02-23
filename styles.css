@@ -1,6 +1,8 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image: url(Back.jpg);
+  margin: auto;
 }
 
 p {
@@ -13,6 +15,10 @@ p {
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  width: 80%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -37,4 +43,49 @@ li {
 table {
   width: 80%;
   margin: auto;
+}
+
+.ope
+{
+  color: #087AC8;
+  font-weight: bold;
+}
+
+#osszeadas
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: block;
+  text-align: center;
+}
+
+p
+{
+  text-align: justify;
+  line-height: 120%;
+  text-indent: 0;
+}
+
+td
+{
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.padding5
+{
+  padding: 5px;
+}
+
+thead
+{
+  color: white;
+  background-color: #087AC8;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: red;
 }
